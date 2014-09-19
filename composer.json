@@ -1,0 +1,25 @@
+{
+    "name": "author/appname",
+    "description": "The description of my awesome PHP application",
+    "require": {
+        "php": ">=5.3.0",
+        "ext-pdo": "*",
+        "slim/slim": "2.4.*",
+        "slim/extras": "*"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "John Doe",
+            "email": "john.doe@somedomain.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "SampleApp\\": "app/lib/"
+        }
+    },
+    "archive": {
+        "exclude": ["vendor", ".DS_Store", "*.log"]
+    }
+}

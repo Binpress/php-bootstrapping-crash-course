@@ -1,0 +1,7 @@
+{
+    "router":"default",
+    "docroot": "app/public",
+    "env": {
+        "SLIM_MODE": "development"
+    }
+}
